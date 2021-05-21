@@ -8,3 +8,4 @@ The word file has 3 screen shots of analysis results of stocks of 2016,2015,and 
 ![image](https://user-images.githubusercontent.com/79819331/119189466-1655cc80-ba4a-11eb-9267-9eb7d2185a34.png)
 ![image](https://user-images.githubusercontent.com/79819331/119189486-1b1a8080-ba4a-11eb-9049-7a821ab16f23.png)
 
+![image](https://user-images.githubusercontent.com/79819331/119191346-806f7100-ba4c-11eb-9b4e-9fc8b9a5023a.png)
