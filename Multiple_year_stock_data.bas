@@ -1,15 +1,18 @@
 Attribute VB_Name = "Module2"
-      'star onclick sub
+'star onclick sub
 Sub oneclick()
-      'select each worksheet
+'select each worksheet
 For Each ws In Worksheets
 ws.Select
-      'call the next sub
+'call the next sub
 Call ticker
-      '     
+'analyze next worksheet    
 Next ws
+'end oneclick sub
 End Sub
+'start ticker sub
 Sub ticker()
+      'set cell value
 Cells(1, 9).Value = "Ticker"
 Cells(2, 9).Value = Cells(2, 1).Value
 Cells(1, 10).Value = "Yearly Change"
