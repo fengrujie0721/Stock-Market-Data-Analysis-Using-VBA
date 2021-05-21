@@ -7,6 +7,20 @@ The word file has 3 screen shots of analysis results of stocks of 2016,2015,and 
 
 ![image](https://user-images.githubusercontent.com/79819331/119191484-b280d300-ba4c-11eb-896b-68a2b383076e.png)
 
+Create a script that will loop through all the stocks for one year and output the following information.
+
+
+The ticker symbol.
+
+
+Yearly change from opening price at the beginning of a given year to the closing price at the end of that year.
+
+
+The percent change from opening price at the beginning of a given year to the closing price at the end of that year.
+
+
+The total stock volume of the stock.
+
 ![image](https://user-images.githubusercontent.com/79819331/119191346-806f7100-ba4c-11eb-9b4e-9fc8b9a5023a.png)
 
 
