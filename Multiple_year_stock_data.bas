@@ -148,9 +148,9 @@ For d = 2 To lastrow
 'set cell(4,16)'s value to cell(d,9)'s value
         Cells(4, 16).Value = Cells(d, 9).Value
   End If
-
+'end loop
 Next d
-
+'end bonus sub
 End Sub
     
     
