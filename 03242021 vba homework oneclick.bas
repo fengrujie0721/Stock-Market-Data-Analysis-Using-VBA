@@ -115,9 +115,11 @@ Cells(1, 16).Value = "Ticker"
 Cells(1, 17).Value = "Value"
 Cells(2, 15).Value = "Greatest % Increase"
 Cells(3, 15).Value = "Greatest % Decrease"
+Cells(4, 15).Value = "Greatest Total Volume"
+'set cells formats
 Cells(2, 17).NumberFormat = "0.00%"
 Cells(3, 17).NumberFormat = "0.00%"
-Cells(4, 15).Value = "Greatest Total Volume"
+
 'set variables as integers
 Dim minimal_change As Double
 Dim maximal_change As Double
@@ -143,7 +145,7 @@ Cells(3, 17).Value = Cells(d, 11).Value
   
  End If
 'check if cell(d,11)'s value is more than maximal change 
-If Cells(d, 11).Value > maximal_change Then
+If Cells(d, 11).Value > maximal_change and Cells(d,11).Value<>"not valid" Then
 'set maximal_change to cell(d,11)'s value
 maximal_change = Cells(d, 11).Value
 'set cell(2,17)'s value to cell(d,11)'s value
