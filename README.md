@@ -29,6 +29,6 @@ The vba scripts is one click to analyze all sheets in the worksheet. The type of
 ![image](https://user-images.githubusercontent.com/79819331/119189466-1655cc80-ba4a-11eb-9267-9eb7d2185a34.png)
 ![image](https://user-images.githubusercontent.com/79819331/119189486-1b1a8080-ba4a-11eb-9049-7a821ab16f23.png)
 
-The word file has 3 screen shots of analysis results of stocks of 2016, 2015, and 2014.
-Have conditional formatting that will highlight positive change in green and negative change in red.
+3 screen shots of analysis results of stocks of 2016, 2015, and 2014.
+Conditional formatting highlights positive change in green and negative change in red.
 Return the stock with the "Greatest % increase", "Greatest % decrease" and "Greatest total volume". 
