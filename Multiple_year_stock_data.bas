@@ -31,31 +31,38 @@ j = 2
 sum_of_stock = 0
 'loop through rows
 For i = 2 To lastrow
-
+'check if cell(i,1)'s value equals to cell(j,9)'s value
    If Cells(i, 1).Value = Cells(j, 9).Value Then
+'add cell(i,7)'s value to sum_of_stock
         sum_of_stock = sum_of_stock + Cells(i, 7).Value
+'set cell(j,12)'s value to sum_of_stock
       Cells(j, 12).Value = sum_of_stock
       
    Else
-   
+'set cell(j+1,9)'s value to cell(i,1)'s value   
        Cells(j + 1, 9).Value = Cells(i, 1).Value
+'add 1 to j
        j = j + 1
+'set sum_of_stock to 0
        sum_of_stock = 0
     End If
+'end loop
 Next i
 
-
+'set variable b to 2
 b = 2
+'set lastrow
 lastrow = Cells(Rows.Count, 1).End(xlUp).Row
+'loop through rows
 For a = 2 To lastrow
-
+'check if cell(a,1)'s value equals to cell(b,9)'s value and cell(a,2)'s value is less than cell(a-1,2)'s value
      If Cells(a, 1).Value = Cells(b, 9).Value And Cells(a, 2).Value < Cells(a - 1, 2).Value Then
-   
+'set year_open_value equals to cell(a,3)'s value  
          year_open_value = Cells(a, 3).Value
    
-    
+'check if cell(a,1)'s value equals to cell(b,9)'s value and cell(a,2)'s value is larger than cell(a+1,2)'s value  
       ElseIf Cells(a, 1).Value = Cells(b, 9).Value And Cells(a, 2).Value > Cells(a + 1, 2).Value Then
-      
+'set year_end_value to cell(a,6)'s value      
          year_end_value = Cells(a, 6).Value
       
       
