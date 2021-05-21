@@ -1,10 +1,12 @@
 Attribute VB_Name = "Module2"
+      'star onclick sub
 Sub oneclick()
-
+      'select each worksheet
 For Each ws In Worksheets
 ws.Select
       'call the next sub
 Call ticker
+      '     
 Next ws
 End Sub
 Sub ticker()
