@@ -4,8 +4,13 @@ The vba scripts is one click to analyze all sheets in the worksheet. The type of
 The word file has 3 screen shots of analysis results of stocks of 2016,2015,and 2014.
 
 
+
+![image](https://user-images.githubusercontent.com/79819331/119191484-b280d300-ba4c-11eb-896b-68a2b383076e.png)
+
+![image](https://user-images.githubusercontent.com/79819331/119191346-806f7100-ba4c-11eb-9b4e-9fc8b9a5023a.png)
+
+
 ![image](https://user-images.githubusercontent.com/79819331/119189452-1229af00-ba4a-11eb-9f68-98cda6433f2f.png)
 ![image](https://user-images.githubusercontent.com/79819331/119189466-1655cc80-ba4a-11eb-9267-9eb7d2185a34.png)
 ![image](https://user-images.githubusercontent.com/79819331/119189486-1b1a8080-ba4a-11eb-9049-7a821ab16f23.png)
 
-![image](https://user-images.githubusercontent.com/79819331/119191346-806f7100-ba4c-11eb-9b4e-9fc8b9a5023a.png)
