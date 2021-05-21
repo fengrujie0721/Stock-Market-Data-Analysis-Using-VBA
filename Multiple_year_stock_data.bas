@@ -1,10 +1,10 @@
 Attribute VB_Name = "Module2"
-'star onclick sub
+'start onclick sub
 Sub oneclick()
 'select each worksheet
 For Each ws In Worksheets
 ws.Select
-'call the next sub
+'call the ticker sub
 Call ticker
 'analyze next worksheet    
 Next ws
@@ -12,20 +12,24 @@ Next ws
 End Sub
 'start ticker sub
 Sub ticker()
-      'set cell value
+'set cells values
 Cells(1, 9).Value = "Ticker"
 Cells(2, 9).Value = Cells(2, 1).Value
 Cells(1, 10).Value = "Yearly Change"
 Cells(1, 11).Value = "Percent Change"
 Cells(1, 12).Value = "Total Stock Volume"
+'set variables as integers
 Dim year_open_value As Double
 Dim year_end_value As Double
 Dim sum_of_stock As Double
 
-
+'set lastrow
 lastrow = Cells(Rows.Count, 1).End(xlUp).Row
+'set variable j
 j = 2
+'set variable sum_of_stock to 0
 sum_of_stock = 0
+'loop through rows
 For i = 2 To lastrow
 
    If Cells(i, 1).Value = Cells(j, 9).Value Then
