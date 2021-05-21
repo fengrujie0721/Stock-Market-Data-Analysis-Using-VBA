@@ -132,17 +132,20 @@ For d = 2 To lastrow
  End If
 'check if cell(d,11)'s value is greater than Greatest_Increase and cell(d,11)'s value is not 'not valid'
  If Cells(d, 11).Value > Greatest_Increase And Cells(d, 11).Value <> "not valid" Then
-
+'set Greastst_Increase to cell(d,11)'s value
         Greatest_Increase = Cells(d, 11).Value
-
+'set cell(2,17)'s value to cell(d,11)'s value
         Cells(2, 17).Value = Cells(d, 11).Value
+'set cell(2,16)'s value to cell(d,9)'s value
         Cells(2, 16).Value = Cells(d, 9).Value
  End If
- 
+'check if cell(d,12)'s value is greater than Greatest_Volume
  If Cells(d, 12).Value > Greatest_Volume Then
+'set Greatest_Volume to cell(d,12)'s value
         Greatest_Volume = Cells(d, 12).Value
-
+'set cell(4,17)'s value to cell(d,12)'s value
         Cells(4, 17).Value = Cells(d, 12).Value
+'set cell(4,16)'s value to cell(d,9)'s value
         Cells(4, 16).Value = Cells(d, 9).Value
   End If
 
