@@ -3,6 +3,7 @@ Sub oneclick()
 
 For Each ws In Worksheets
 ws.Select
+      'call the next sub
 Call ticker
 Next ws
 End Sub
